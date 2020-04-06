@@ -1,16 +1,16 @@
 /*
-*  splash5_widget.dart
-*  JBNU 1st
+*  splash3_widget.dart
+*  jbnu
 *
 *  Created by .
 *  Copyright © 2018 . All rights reserved.
     */
 
 import 'package:flutter/material.dart';
-import 'package:jbnu_1st/values/values.dart';
+import 'package:jbnu/values/values.dart';
 
 
-class Splash5Widget extends StatelessWidget {
+class Splash3Widget extends StatelessWidget {
   
   @override
   Widget build(BuildContext context) {
@@ -19,7 +19,7 @@ class Splash5Widget extends StatelessWidget {
       body: Container(
         constraints: BoxConstraints.expand(),
         decoration: BoxDecoration(
-          color: Color.fromARGB(255, 189, 148, 255),
+          color: Color.fromARGB(255, 207, 159, 234),
         ),
         child: Column(
           crossAxisAlignment: CrossAxisAlignment.stretch,
@@ -27,11 +27,11 @@ class Splash5Widget extends StatelessWidget {
             Align(
               alignment: Alignment.topCenter,
               child: Container(
-                width: 137,
-                height: 137,
-                margin: EdgeInsets.only(top: 269),
+                width: 142,
+                height: 142,
+                margin: EdgeInsets.only(top: 264),
                 child: Image.asset(
-                  "assets/images/file.png",
+                  "assets/images/bitmap.png",
                   fit: BoxFit.none,
                 ),
               ),
@@ -44,7 +44,7 @@ class Splash5Widget extends StatelessWidget {
                   "잘 지내자 !",
                   textAlign: TextAlign.center,
                   style: TextStyle(
-                    color: AppColors.accentText,
+                    color: AppColors.primaryText,
                     fontFamily: "Apple SD Gothic Neo",
                     fontWeight: FontWeight.w400,
                     fontSize: 24,
@@ -57,7 +57,7 @@ class Splash5Widget extends StatelessWidget {
               height: 56,
               margin: EdgeInsets.only(left: 14, right: 15, bottom: 75),
               decoration: BoxDecoration(
-                color: Color.fromARGB(255, 255, 255, 255),
+                color: AppColors.primaryElement,
                 boxShadow: [
                   Shadows.primaryShadow,
                 ],
@@ -68,13 +68,13 @@ class Splash5Widget extends StatelessWidget {
                 crossAxisAlignment: CrossAxisAlignment.stretch,
                 children: [
                   Container(
-                    margin: EdgeInsets.only(left: 153, right: 152),
+                    margin: EdgeInsets.only(left: 155, right: 154),
                     child: Text(
                       "Login",
                       textAlign: TextAlign.center,
                       style: TextStyle(
-                        color: Color.fromARGB(255, 32, 217, 148),
-                        fontFamily: "",
+                        color: AppColors.secondaryText,
+                        fontFamily: "Apple SD Gothic Neo",
                         fontWeight: FontWeight.w400,
                         fontSize: 16,
                       ),
