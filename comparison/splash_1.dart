@@ -1,16 +1,16 @@
 /*
-*  splash3_widget.dart
-*  JBNU 1st
+*  splash1_widget.dart
+*  jbnu
 *
 *  Created by .
 *  Copyright © 2018 . All rights reserved.
     */
 
 import 'package:flutter/material.dart';
-import 'package:jbnu_1st/values/values.dart';
+import 'package:jbnu/values/values.dart';
 
 
-class Splash3Widget extends StatelessWidget {
+class Splash1Widget extends StatelessWidget {
   
   @override
   Widget build(BuildContext context) {
@@ -19,7 +19,7 @@ class Splash3Widget extends StatelessWidget {
       body: Container(
         constraints: BoxConstraints.expand(),
         decoration: BoxDecoration(
-          color: Color.fromARGB(255, 189, 148, 255),
+          color: Color.fromARGB(255, 207, 159, 234),
         ),
         child: Column(
           crossAxisAlignment: CrossAxisAlignment.stretch,
@@ -31,7 +31,7 @@ class Splash3Widget extends StatelessWidget {
                 height: 180,
                 margin: EdgeInsets.only(top: 228),
                 child: Image.asset(
-                  "assets/images/food-2.png",
+                  "assets/images/food.png",
                   fit: BoxFit.none,
                 ),
               ),
@@ -44,7 +44,7 @@ class Splash3Widget extends StatelessWidget {
                   "잘 먹고",
                   textAlign: TextAlign.center,
                   style: TextStyle(
-                    color: AppColors.accentText,
+                    color: AppColors.primaryText,
                     fontFamily: "Apple SD Gothic Neo",
                     fontWeight: FontWeight.w400,
                     fontSize: 24,
@@ -57,7 +57,7 @@ class Splash3Widget extends StatelessWidget {
               height: 56,
               margin: EdgeInsets.only(left: 14, right: 15, bottom: 75),
               decoration: BoxDecoration(
-                color: Color.fromARGB(255, 255, 255, 255),
+                color: AppColors.primaryElement,
                 boxShadow: [
                   Shadows.primaryShadow,
                 ],
@@ -68,13 +68,13 @@ class Splash3Widget extends StatelessWidget {
                 crossAxisAlignment: CrossAxisAlignment.stretch,
                 children: [
                   Container(
-                    margin: EdgeInsets.only(left: 153, right: 152),
+                    margin: EdgeInsets.only(left: 154, right: 153),
                     child: Text(
                       "Login",
                       textAlign: TextAlign.center,
                       style: TextStyle(
-                        color: Color.fromARGB(255, 32, 217, 148),
-                        fontFamily: "",
+                        color: AppColors.secondaryText,
+                        fontFamily: "Yuppy TC",
                         fontWeight: FontWeight.w400,
                         fontSize: 16,
                       ),
