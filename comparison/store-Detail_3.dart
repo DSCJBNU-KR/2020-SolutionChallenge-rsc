@@ -217,7 +217,7 @@ class StoreDetail3Widget extends StatelessWidget {
                                     width: 233,
                                     height: 110,
                                     decoration: BoxDecoration(
-                                      color: AppColors.ternaryBackground,
+                                      color: Color.fromARGB(255, 207, 159, 234),
                                       boxShadow: [
                                         Shadows.secondaryShadow,
                                       ],
@@ -335,7 +335,7 @@ class StoreDetail3Widget extends StatelessWidget {
                     height: 45,
                     margin: EdgeInsets.only(left: 15, right: 12, bottom: 11),
                     decoration: BoxDecoration(
-                      color: AppColors.secondaryElement,
+                      color: Color.fromARGB(255, 207, 159, 234),
                       borderRadius: BorderRadius.all(Radius.circular(16)),
                     ),
                     child: Container(),
@@ -394,12 +394,12 @@ class StoreDetail3Widget extends StatelessWidget {
                                                   Expanded(
                                                     flex: 1,
                                                     child: Container(
-                                                      margin: EdgeInsets.only(left: 28, right: 56),
+                                                      margin: EdgeInsets.only(left: 28, right: 57),
                                                       child: Column(
                                                         crossAxisAlignment: CrossAxisAlignment.stretch,
                                                         children: [
                                                           Container(
-                                                            height: 12,
+                                                            height: 24,
                                                             child: Row(
                                                               crossAxisAlignment: CrossAxisAlignment.stretch,
                                                               children: [
@@ -421,7 +421,7 @@ class StoreDetail3Widget extends StatelessWidget {
                                                                 Align(
                                                                   alignment: Alignment.topLeft,
                                                                   child: Text(
-                                                                    "ID Card",
+                                                                    "Search\n",
                                                                     textAlign: TextAlign.center,
                                                                     style: TextStyle(
                                                                       color: AppColors.primaryText,
@@ -475,7 +475,7 @@ class StoreDetail3Widget extends StatelessWidget {
                                                 "Home",
                                                 textAlign: TextAlign.center,
                                                 style: TextStyle(
-                                                  color: Color.fromARGB(255, 32, 217, 148),
+                                                  color: Color.fromARGB(255, 113, 32, 217),
                                                   fontFamily: "Apple SD Gothic Neo",
                                                   fontWeight: FontWeight.w400,
                                                   fontSize: 10,
@@ -539,7 +539,7 @@ class StoreDetail3Widget extends StatelessWidget {
                               Positioned(
                                 top: 12,
                                 child: Image.asset(
-                                  "assets/images/home-minimal.png",
+                                  "assets/images/home-minimal-2.png",
                                   fit: BoxFit.none,
                                 ),
                               ),
@@ -548,9 +548,9 @@ class StoreDetail3Widget extends StatelessWidget {
                         ),
                         Positioned(
                           top: 16,
-                          right: 105,
+                          right: 104,
                           child: Image.asset(
-                            "assets/images/name-2.png",
+                            "assets/images/magnifying-glass.png",
                             fit: BoxFit.none,
                           ),
                         ),
