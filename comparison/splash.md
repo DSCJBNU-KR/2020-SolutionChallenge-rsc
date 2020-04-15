@@ -1,4 +1,4 @@
-# splash
+# splash(MJ)
 
 
 > CF9FEA (bg) <br>
